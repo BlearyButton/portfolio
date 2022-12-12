@@ -1,0 +1,12 @@
+.underline_wavy {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 8px;
+    text-decoration-color: #f10086;
+	transition: color 0.5s;
+}
+
+.underline_wavy:hover {
+    color: #f10086;
+    text-underline-offset: 10px;
+}

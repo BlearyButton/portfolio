@@ -10,9 +10,13 @@ module.exports = {
         'poppins': ['Poppins', 'sans-serif'] 
       },
       colors: {
-        'darkbeige': '#453b27',
-        'borderbeige': '#453b27',
+        'backgroundpurple': '#231955',
+        'borderpurple': '#874bf7',
+        'textcolor': '#eee',
       },
+      borderWidth: {
+        '16': '20px',
+      }
     }
   },
   plugins: [],
