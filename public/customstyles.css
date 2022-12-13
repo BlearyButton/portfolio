@@ -10,3 +10,65 @@
     color: #f10086;
     text-underline-offset: 10px;
 }
+
+  .ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 20px;
+  }
+  .hamRotate:hover {
+    transform: rotate(0deg);
+    padding: 20px;
+  }
+
+  .hamRotate.active {
+    transform: rotate(225deg);
+    background-color: #231955;
+    padding: 20px;
+  }
+
+  .hamRotate180:hover {
+    transform: rotate(90deg);
+    padding: 20px;
+  }
+  .line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:#fffbeb;
+    stroke-width:2.5;
+    stroke-linecap:round;
+  }
+  .ham1 .top {
+    stroke-dasharray: 40 139;
+  }
+  .ham1 .bottom {
+    stroke-dasharray: 40 180;
+  }
+  .ham1:hover .top {
+    stroke-dashoffset: -98px;
+  }
+  .ham1:hover .bottom {
+    stroke-dashoffset: -138px;
+  }
+
+.js-menu-button {
+    transition: transform 2s;
+}
+
+.underline_menu {
+	transition: 0.5s;
+}
+
+.underline_menu:hover {
+    color: #f10086;
+    text-underline-offset: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 8px;
+    text-decoration-color: #f10086;
+}

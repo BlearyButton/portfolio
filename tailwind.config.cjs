@@ -13,6 +13,7 @@ module.exports = {
         'backgroundpurple': '#231955',
         'borderpurple': '#874bf7',
         'textcolor': '#eee',
+        'menubackground': '#210459',
       },
       borderWidth: {
         '16': '20px',

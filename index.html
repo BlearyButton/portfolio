@@ -7,24 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body class="h-screen border border-borderpurple bg-backgroundpurple border-16">
+  <body class="overflow-hidden h-screen border border-borderpurple bg-backgroundpurple border-16">
     <div class="flex flex-col justify-center w-5/12 mx-auto mt-48">
       <div class="flex flex-row items-center justify-between">
         <img src="about/Steph.png" class="w-2/12" />
-        <div class="space-y-2">
-          <span class="rounded-full block w-9 h-1 bg-amber-50"></span>
-          <span class="rounded-full block w-9 h-1 bg-amber-50"></span>
-          <span class="rounded-full block w-9 h-1 bg-amber-50"></span>
-        </div>
+        <button class="js-menu-button">
+          <svg class="ham hamRotate ham1 js-ham" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+            <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          </svg>
+        </button>
       </div>
-      <div class="mt-24 text-3xl text-textcolor font-poppins leading-relaxed ">Hi there, I am Stephanie 👋🏻 - a Dutch visual designer with a great passion for UI & UX design. I design for the magic ✨ of a user-first experience, combined with clean and minimalistic design. In my free time, I like to <a href="#" class="underline_wavy">draw and illustrate </a></div>
-    
-      <div class="mt-24">
-        WORK
+      <div class="mt-24 text-3xl text-textcolor font-poppins leading-loose ">Hi there, I am Stephanie 👋🏻 ━ a Dutch visual designer with a great passion for UI & UX design. I design for the magic ✨ of a user-first experience, combined with clean and minimalistic design. In my free time, I like to <a href="../personal/index.html" class="underline_wavy">draw and illustrate </a></div>
+        
+    <div class="js-menu absolute inset-0 bg-menubackground border-16 border-backgroundpurple hidden flex flex-col items-center pt-48 ">
+      <div class="flex flex-row w-5/12 mx-auto items-center justify-between ">
+        <div class=""> </div>
+      <button class="js-menu-button">
+        <svg class="ham hamRotate ham1 js-ham" viewBox="0 0 100 100" width="80">
+          <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+          <path class="line middle" d="m 30,50 h 40" />
+          <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+        </svg>
+      </button>
       </div>
-    
+      <ul class="text-amber-50 font-poppins mt-24 text-center text-2xl">
+        <a class="underline_menu" href="#"><li class="my-8">Work</li></a>
+        <a class="underline_menu" href="#"><li class="my-8">Personal</li></a>
+        <a class="underline_menu" href="#"><li class="my-8">About</li></a>
+      </ul>
     </div>
 
+    <div class="mt-24 font-poppins text-amber-100 font-bold">
+      WORK ━
+    </div>
+
+  </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
