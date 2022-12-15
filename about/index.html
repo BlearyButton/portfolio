@@ -2,14 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/customstyles.css" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body>
-    <div class="text-green-200 text-3xl">
-      About
+  <body class="border border-borderpurple bg-backgroundpurple border-16">
+    <div class="flex flex-col justify-center w-5/12 mx-auto mt-48">
+      <div class="flex flex-row items-center justify-between">
+        <img src="Steph.png" class="w-2/12" />
+        <button class="js-menu-button">
+          <svg class="ham hamRotate ham1 js-ham" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+            <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="overflow-hidden js-menu absolute inset-0 bg-menubackground border-16 border-backgroundpurple hidden flex flex-col items-center pt-48 ">
+        <div class="flex flex-row w-5/12 mx-auto items-center justify-between ">
+          <div class=""> </div>
+        <button class="js-menu-button">
+          <svg class="ham hamRotate ham1 js-ham" viewBox="0 0 100 100" width="80">
+            <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+          </svg>
+        </button>
+        </div>
+        <ul class="text-amber-50 font-poppins mt-24 text-center text-2xl">
+          <a class="underline_menu" href="#"><li class="my-8">Work</li></a>
+          <a class="underline_menu" href="#"><li class="my-8">Personal</li></a>
+          <a class="underline_menu" href="about/index.html"><li class="my-8">About</li></a>
+        </ul>
+      </div>
+
+      <div class="flex flex-col mx-auto justify-center items-center ">
+        <div class="">
+        <div class="mt-24 text-3xl">👋🏻</div>
+        <div class="text-amber-50 mt-4 text-2xl leading-loose font-poppins">
+          Hi there! Nice to meet you, I am Stephanie. I am a Dutch visual designer with a great passion for UI & UX design.
+          Currently, I am studying ICT & Media Design and will be graduating in July 2023.</div></div>
+          <img src="../about/self_full.jpg" class="rounded-lg w-8/12 mt-12 " />
+          <div class="text-amber-50 mt-12 text-lg leading-loose font-poppins">During my studies 📚, I have always played with the thought to one day start my own business. I would always get inspired when checking out others who have done the same, and in 2021 finally decided to go for it.</div>
+          <div class="text-amber-50 mt-12 text-lg leading-loose font-poppins">Since starting my business, I have been blessed to have worked with some great companies. Each project has been completely different than the other, meaning one week I will work on designing a complete mobile application by creating user interfaces, and the other week I will create prints for a business' stationery. </div>
+          <div class="text-amber-50 mt-12 text-lg leading-loose font-poppins">I design for the magic ✨ of a user-first experience, combined with clean and minimalistic design. As both my interests, and my qualities lie on all different kinds of design work, feel free to contact me about any sort of project you have, and we can discuss how I may be at your service!</div>
+      </div>
     </div>
-    <script type="module" src="../main.js"></script>
+
+      <section class="mt-24 flex items-center justify-center align-center w-10/12 mx-auto">
+        <div class="flex flex-col justify-center">
+          <div class="flex flex-row mx-auto">
+            <img src="../about/aadje.jpg" class="w-6/12 h-full rounded-xl ml-12"/>
+            <img src="../about/jamessie.JPG" class="w-5/12 h-full rounded-xl -ml-12 mt-1  2"/>
+          </div>
+          <img src="../about/uitzicht.jpg" class="w-4/12 h-full rounded-xl -mt-36 "/>
+        </div>
+      </section>
+
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
