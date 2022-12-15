@@ -98,3 +98,10 @@
   text-decoration-color: #fde68a;
   text-decoration-thickness: 2px;
 }
+
+.underline_project {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 2px;
+  text-decoration-color: #9EE69F;
+}
