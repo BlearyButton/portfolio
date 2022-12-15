@@ -3,12 +3,28 @@
     text-decoration-style: wavy;
     text-underline-offset: 8px;
     text-decoration-color: #f10086;
-	transition: color 0.5s;
+	  transition: color 0.5s;
 }
 
 .underline_wavy:hover {
     color: #f10086;
     text-underline-offset: 10px;
+}
+
+.underline_wavy_yellow {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 8px;
+  text-decoration-color: #FFFFFF;
+  transition: color 0.5s;
+}
+
+.underline_wavy_company {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 8px;
+  text-decoration-color: #FFFFFF;
+  text-decoration-thickness: 3px;
 }
 
   .ham {
@@ -71,4 +87,14 @@
     text-decoration-style: wavy;
     text-underline-offset: 8px;
     text-decoration-color: #f10086;
+}
+
+.underline_wavy_work {
+  color: #f10086;
+  text-underline-offset: 10px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 8px;
+  text-decoration-color: #fde68a;
+  text-decoration-thickness: 2px;
 }
