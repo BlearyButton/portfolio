@@ -76,6 +76,7 @@
     transition: transform 2s;
 }
 
+
 .underline_menu {
 	transition: 0.5s;
 }
@@ -104,4 +105,19 @@
   text-decoration-style: solid;
   text-underline-offset: 2px;
   text-decoration-color: #9EE69F;
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
