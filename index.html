@@ -7,66 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stephanie Bolder ━ UI designer</title>
   </head>
-  <body class="pb-24 border border-borderpurple bg-backgroundpurple border-16">
-    <div class="flex flex-col justify-center w-5/12 mx-auto mt-48">
-      <div class="flex flex-row items-center justify-between">
-        <a href="index.html"><img src="about/Steph.png" class="w-2/12" /></a>
-        <button class="js-menu-button">
-          <svg class="ham hamRotate ham1 js-ham" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
-            <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-            <path class="line middle" d="m 30,50 h 40" />
-            <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
-          </svg>
-        </button>
-      </div>
-      <div class="mt-24 text-3xl text-textcolor font-poppins leading-loose ">Hi there, I am Stephanie 👋🏻 ━ a Dutch visual designer with a great passion for UI & UX design. I design for the magic ✨ of a user-first experience, combined with clean and minimalistic design. In my free time, I like to <a href="../personal/index.html" class="underline_wavy">draw and illustrate </a></div>
-        
-    <div class="js-menu absolute inset-0 bg-menubackground border-16 border-backgroundpurple hidden overflow-y-hidden flex flex-col items-center pt-48 ">
-      <div class="flex flex-row w-5/12 mx-auto items-center justify-between">
-        <div class=""> </div>
-      <button class="js-menu-button">
-        <svg class="ham hamRotate ham1 js-ham" viewBox="0 0 100 100" width="80">
-          <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-          <path class="line middle" d="m 30,50 h 40" />
-          <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
-        </svg>
-      </button>
-      </div>
-      <ul class="text-amber-50 font-poppins mt-24 text-center text-2xl">
-        <a class="underline_menu" href="index.html"><li class="my-8">Work</li></a>
-        <a class="underline_menu" href="#"><li class="my-8">Personal</li></a>
-        <a class="underline_menu" href="about/index.html"><li class="my-8">About</li></a>
-      </ul>
-    </div>
-
-    <div class="mt-24 mb-48 font-poppins text-amber-100 font-bold">
-      WORK ━
-    </div>
-  </div>
-
-  <div class="w-9/12 flex mx-auto ">
-    <a href="work/momoyoga.html"><div class="ease-in duration-300 hover:bg-menubackground flex flex-row rounded-lg items-center justify-center align-center h-72 group">
-      <img src="about/momoyoga_thumbnail.png" class="w-4/12" />
-      <div class="flex flex-col ml-16 w-4/12">
-        <div class="font-baskerville text-4xl text-amber-50 group-hover:underline">Momoyoga</div>
-        <div class="mt-8 font-poppins text-amber-50 leading-relaxed">What are the possibilities for a one stop shop within Momoyoga, looking at the development of the market, and the needs of the current users?</div>
-        <div class="mt-8 font-poppins text-amber-50 underline_wavy_yellow">Read more</div>
-      </div>
-    </div>
-    </a>
-    </div>
-
-    <div class="mt-48 w-9/12 flex mx-auto ">
-      <a href="work/gsap/index.html"><div class="ease-in duration-300 hover:bg-menubackground flex flex-row rounded-lg items-center justify-center align-center h-72 group">
-        <div class="flex flex-col mr-16 w-4/12">
-          <div class="font-baskerville text-4xl text-amber-50 group-hover:underline">PSV Swimming</div>
-          <div class="mt-8 font-poppins text-amber-50 leading-relaxed">The goal of these animations is to learn about the Javascript library GSAP</div>
-          <div class="mt-8 font-poppins text-amber-50 underline_wavy_yellow">Read more</div>
+ <body class="">
+      <header id="header" class=" bg-[url('/hero-bg.jpeg')] pb-24">
+        <div class="flex flex-row justify-between mx-64 pt-8 ">
+          <div class="font-poppins font-bold text-lg text-white">Stephanie Bolder</div>
+          <div class="tooltip"><img src="/public/airplane.png" class="w-10">
+            <span class="tooltiptext">Contact</span>
+          </div>
         </div>
-        <img src="about/momoyoga_thumbnail.png" class="w-4/12" />
+        <div class="flex justify-center flex-col items-center">
+        <div class="mx-auto w-5/12 flex justify-center items-center align-center pt-24">
+          <div class="flex flex-col">
+            <div class="mt-24 text-3xl text-textcolor font-poppins leading-loose ">Hi there, I am Stephanie 👋🏻 ━ a Dutch visual designer with a great passion for UI & UX design. I design for the magic ✨ of a user-first experience, combined with clean and minimalistic design. In my free time, I like to <a href="../personal/index.html" class="underline_wavy">draw and illustrate </a></div>
+            </div>
+        </div>
+        <div class="mt-24 py-4 px-8 font-poppins text-xl text-white rounded-full border-2 border-white">Latest work</div>
       </div>
-      </a>
+    </header>
+
+    <div class="mt-48 flex flex-col mx-auto justify-center items-center w-7/12">
+      <div class="flex flex-row items-center align-center ">
+        <div class="flex flex-col w-5/12 pr-24">
+          <div class="font-baskerville text-6xl ">Momoyoga</div>
+          <div class="font-poppins mt-4 leading-loose font-light">What are the possibilities for a one stop shop within Momoyoga, looking at the development of the market, and the needs of the current users?</div>
+          <button class="w-6/12 mt-5 py-2 px-4 font-poppins text-black rounded-full border-2 border-black">See more</button>
+        </div>
+        <div class="bg-momoyoga"><div class="text-white">test</div></div>
       </div>
+    </div>
+
 
 
     <script type="module" src="/main.js"></script>

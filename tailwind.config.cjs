@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
-        'baskerville': ['Libre Baskerville', 'serif'] 
+        'baskerville': ['Libre Baskerville', 'serif']
       },
       colors: {
         'backgroundpurple': '#231955',
